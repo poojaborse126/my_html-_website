@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub - Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="FoodHub Logo" class="logo-img">
+            <h2>FoodHub</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <h2>Get In Touch</h2>
+        <div class="contact-two-column">
+            <!-- Left Column -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong> FoodHub HQ, FC Road, Pune, Maharashtra 411004</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> support@foodhub.com</p>
+                <p><strong>Working Hours:</strong> 24/7 Service</p>
+            </div>
+
+            <!-- Right Column Form -->
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" placeholder="Enter Full Name" required>
+
+                    <label for="cemail">Email</label>
+                    <input type="email" id="cemail" placeholder="Enter Email" required>
+
+                    <label for="cphone">Phone</label>
+                    <input type="tel" id="cphone" placeholder="Enter Phone Number">
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Subject">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Your Message..." required></textarea>
+
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">&copy; 2026 FoodHub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
